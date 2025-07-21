@@ -13,19 +13,21 @@
       <header>
         <h1>AI French Poems Generator</h1>
       </header>
-
-      <form id="poem-generator-form">
-        <input
-          type="text"
-          placeholder="Enter the topic of the French poem"
-          autofocus
-          required
-          autocomplete="off"
-          class="submit-form"
-          id="instructions-input"
-        />
-        <input type="submit" class="submit-button" />
-      </form>
+      <div class="poem-container">
+        <form id="poem-generator-form">
+          <input
+            type="text"
+            placeholder="Enter the topic of a French poem"
+            autofocus
+            required
+            autocomplete="off"
+            class="submit-form"
+            id="instructions-input"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="hint">e.g. flower, Paris or cheese</div>
+      </div>
       <div class="poem hidden" id="poem"></div>
       <footer>
         This project was coded by
@@ -37,6 +39,7 @@
         <a href="https://french-poem-generator91.netlify.app/"> Netlify.</a>
       </footer>
     </div>
+
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <script src="src/index.js"></script>
   </body>
