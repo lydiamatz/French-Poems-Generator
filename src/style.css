@@ -36,7 +36,7 @@ h1 {
   border-radius: 50px;
   color: black;
   background-color: white;
-  border: 1px solid rgb(93, 13, 63);
+  border: 1px solid black;
   line-height: 1.5;
   margin-top: 20px;
 }
@@ -70,7 +70,7 @@ h1 {
 
 .poem-container {
   background-color: white;
-  border-radius: 30;
+  border-radius: 30px;
 }
 
 footer {
